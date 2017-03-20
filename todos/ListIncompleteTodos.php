@@ -27,7 +27,7 @@
 	
 	// Get query results as an array.
 	$resultsArray = array();
-	for ($i = 0; $i < mysqli_num_rows($result); $i++) {
+	for ($i=0; $i < mysqli_num_rows($result); $i++) {
 		$resultsArray[] = mysqli_fetch_object($result);
 	}
 	
