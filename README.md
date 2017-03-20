@@ -9,7 +9,7 @@ I've only implemented the features specifically outlined in the requirements. Th
 * The server the tool runs on is configured for sending e-mails through the PHP mail function.
 * A MySQL database exists with details that match with the db.ini file.
 * In said MySQL database the follow table should exist:
-  * *todos* with this schema:
+  * *todos* with this schema: [todos.sql](https://raw.githubusercontent.com/jamcnaughton/amp-todos/dev/todos.sql)
 * The example request URIs below assume the API is run on the localhost under a **todos** directory.
 
 ## Requests
